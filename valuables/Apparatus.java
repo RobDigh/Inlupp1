@@ -8,7 +8,7 @@ public class Apparatus extends Valuable {
 
 
 
-  public Apparatus(int retailPrice, int wearNumber, String name) {
+  public Apparatus(String name, int retailPrice, int wearNumber) {
     super (name);
       this.retailPrice = retailPrice;
       this.wearNumber = wearNumber;

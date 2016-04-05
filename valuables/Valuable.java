@@ -18,6 +18,7 @@ public abstract class Valuable {
     return calculateValue() * 1.25;
   }
 
+
   public abstract String property();
 
 

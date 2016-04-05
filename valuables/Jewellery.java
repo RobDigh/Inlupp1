@@ -5,8 +5,13 @@ public class Jewellery extends Valuable {
   private int numberOfStones;
   private String material;
 
+
   public int getNumberOfStones() {
     return numberOfStones;
+  }
+
+  public String getMaterial(){
+    return material;
   }
 
   public Jewellery(String name, int numberOfStones, boolean isGold) {
@@ -25,6 +30,10 @@ public class Jewellery extends Valuable {
     //return valueOfStones + valueOfMaterial;
     return valueOfMaterial + (500 * numberOfStones);
   }
+
+
+
+
 
   public String property() {
     material = isGold ? "Gold" : "Silver";
