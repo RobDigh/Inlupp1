@@ -13,9 +13,13 @@ public class Stock extends Valuable {
     this.sharePrice = sharePrice;
   }
 
+  public double setStockCrash(double newSharePrice){
+    this.sharePrice = newSharePrice;
+    return this.sharePrice;
+  }
 
   public double calculateValue() {
-  return numberOfShares * sharePrice;
+    return numberOfShares * sharePrice;
   }
 
   public double setSharePrice(double newSharePrice) {
